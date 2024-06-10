@@ -13,16 +13,14 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 38px;
 }
-
 h2 {
-  font-size: 48px;
-}
-
-h3 {
-  font-size: 24px;
+  font-size: 111px;
   opacity: 0.7;
+}
+h3 {
+  font-size: 48px;
 }
 
 p {
@@ -83,4 +81,18 @@ p {
 .btn-primary {
   background-color: #6c63ff !important;
   border: none !important;
+}
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin: 10px 0;
+  }
 }
