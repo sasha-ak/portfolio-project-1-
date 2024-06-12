@@ -27,7 +27,10 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
-
+a {
+  text-decoration: none;
+  color: white;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -82,6 +85,13 @@ p {
   background-color: #6c63ff !important;
   border: none !important;
 }
+button:hover {
+  cursor: pointer;
+}
+.img-project {
+  text-decoration: none;
+  color: #f5f2fe;
+}
 
 @media (max-width: 600px) {
   h2 {
@@ -91,8 +101,11 @@ p {
     font-size: 14px;
     text-align: center;
   }
-  img {
-    display: block;
+  .img-home {
+    display: none;
     margin: 10px 0;
+  }
+  button {
+    font-size: 10px;
   }
 }
