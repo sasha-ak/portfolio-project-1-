@@ -102,10 +102,10 @@ button:hover {
     text-align: center;
   }
   .img-home {
-    display: none;
     margin: 10px 0;
   }
-  button {
-    font-size: 10px;
+  .button-container {
+    display: flex !important;
+    justify-content: center !important;
   }
 }
